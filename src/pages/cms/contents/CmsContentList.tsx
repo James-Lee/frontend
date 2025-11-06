@@ -5,7 +5,8 @@
 //! [연동 API] GET /api/cms/contents
 //! [호출 위치] CmsApp.tsx → <Route path="contents" element={<CmsContentList />} />
 
-import React, { useEffect, useState } from "react"; // React 훅(useState, useEffect) 사용
+//import React, { useEffect, useState } from "react"; // React 훅(useState, useEffect) 사용
+import { useEffect, useState } from "react"; //![251106] React 훅(useState, useEffect) 사용
 import { useNavigate } from "react-router-dom";     // 페이지 이동을 위한 라우터 훅
 import api from "../../../api/axiosCms";            // CMS 전용 axios 인스턴스 (토큰 자동 포함)
 import "../../../css/all/form.css";
