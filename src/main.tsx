@@ -43,7 +43,7 @@
 
 
 // [1] React 및 ReactDOM 불러오기
-import React from "react";
+// import React from "react";
 import { createRoot } from "react-dom/client";
 
 // [2] App 컴포넌트 불러오기

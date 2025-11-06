@@ -4,7 +4,7 @@
 // - Routes, Route: URL 경로별로 어떤 화면을 보여줄지 정의
 // - Navigate: 특정 경로로 이동시킬 때 사용 (예: 로그인 안했을 때 /cms/login으로 이동)
 import "./css/cms/CmsApp.css"; // ✅ 새로 만든 스타일 파일
-import React from "react";
+// import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 // [2] CMS 화면에서 공통으로 사용할 Layout 컴포넌트 불러오기

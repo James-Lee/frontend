@@ -5,7 +5,7 @@
  * - '시설 이용 신청' 버튼 클릭 시 예약 페이지로 이동
  * - 기존 주석 유지 및 추가 설명 포함
  */
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom'; // ✅ 라우터 링크용 import
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';

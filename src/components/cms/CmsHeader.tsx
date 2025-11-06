@@ -1,6 +1,7 @@
 //! [1] 상위 참조: CmsLayout.tsx의 [4-1] 항목에서 import 됨으로 참조
 
-import React, { useEffect, useState } from "react"; // [2] React 및 훅 불러오기
+// import React, 
+import { useEffect, useState } from "react"; // [2] React 및 훅 불러오기
 import { useNavigate } from "react-router-dom"; // [2-1] 페이지 이동용
 
 // [3] CmsHeader 컴포넌트 시작

@@ -1,6 +1,6 @@
 //! [1] 상위 참조: CmsLayout.tsx의 [4-2] 항목에서 import 됨으로 참조
 
-import React from "react"; // [2] React 불러오기: 컴포넌트 생성용 필수 라이브러리
+// import React from "react"; // [2] React 불러오기: 컴포넌트 생성용 필수 라이브러리
 import { NavLink } from "react-router-dom"; // [3] NavLink: 메뉴 클릭 시 경로 이동을 위한 React Router 기능
 
 // [4] CmsSidebar 컴포넌트 시작

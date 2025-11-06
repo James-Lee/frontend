@@ -1,11 +1,12 @@
-import { useContext } from "react"; 
+// import { useContext } from "react"; 
 // React의 useContext 훅을 가져와서 컴포넌트 내에서 Context API 사용 가능하게 함
 
-import { Navigate, Outlet } from "react-router-dom"; 
+//import { Navigate, Outlet } from "react-router-dom"; 
+import { Navigate } from "react-router-dom"; 
 // react-router-dom에서 페이지 이동 및 자식 컴포넌트 렌더링 도구를 가져옴 
 // Navigate: 특정 경로로 강제 이동, Outlet: 중첩 라우트 자식 컴포넌트 표시
 
-import AuthContext from "./AuthContext"; 
+// import AuthContext from "./AuthContext"; 
 // 프로젝트 내 AuthContext를 임포트, 로그인 상태 등 인증 정보를 얻기 위한 용도
 
 //~ import ReservationList from "../pages/cms/ReservationList"; //추후 추가 예정

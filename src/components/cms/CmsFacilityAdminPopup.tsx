@@ -2,7 +2,8 @@
 //! [설명] CMS 시설 담당자(강사) 선택 팝업
 //! [백엔드] CmsMemberController.java → GET /api/cms/members?adminType=강사
 
-import React, { useEffect, useState } from "react";
+// import React, 
+import { useEffect, useState } from "react";
 import api from "../../api/axiosCms"; // CMS 전용 axios 인스턴스
 import "../../css/all/form.css";
 
